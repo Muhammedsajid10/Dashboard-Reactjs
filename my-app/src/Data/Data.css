@@ -1,0 +1,329 @@
+.Div1 {
+    width: 84%;
+    position: absolute;
+    left: 12%;
+    top: 120px;
+
+    @media (max-width:840px) {
+        left: 39%;
+        width: 60%;
+    }
+}
+
+.headh2 {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 52%;
+    position: absolute;
+
+    @media (max-width:840px) {
+        margin-left: 74px;
+        margin-top: 50px;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+.headh2 {
+    @media (max-width: 350px) {
+        margin-left: 150px;
+        width: 100%;
+    }
+}
+
+.Div1Plan {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 25px;
+    width: 190px;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 79%;
+    padding-left: 5px;
+
+    @media (max-width:840px) {
+        width: 180px;
+        margin-left: 54px;
+    }
+}
+
+.Div1Plan {
+    @media (max-width: 350px) {
+        margin-left: 130px;
+    }
+}
+
+.Div1Planbutton {
+    border: 0;
+    border-radius: 10px;
+    margin-top: 2px;
+    height: 20px;
+    width: 90px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.Div1Planbutton:active {
+    background-color: #4ba5dd;
+}
+
+
+
+
+.datadivsub {
+    display: flex;
+
+    @media (max-width: 840px) {
+        display: block;
+        margin-left: 100px;
+        margin-top: 130px;
+    }
+
+    /* @media (min-width: 840px) and (max-width: 1000px) {
+        .datadivsub {
+            width: 39rem;
+        }
+    }
+
+    @media (min-width: 1001px) and (max-width: 1442px) {
+        .datadivsub {
+            width: 62rem;
+        }
+    } */
+}
+
+.pricedetail {
+    margin-left: 101px;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 6px;
+    margin-top: 20px;
+    text-align: left;
+    width: 300px;
+    transform: translate(28px, 10px);
+
+    @media (max-width: 840px) {
+        width: 499px;
+        padding-top: 10px;
+        margin-left: -155px;
+        margin-top: 20px;
+        overflow-y: scroll;
+    }
+
+    @media (max-width: 450px) {
+        width: 19rem;
+        margin-left: -67px;
+    }
+
+    @media (max-width: 373px) {
+        margin-left: -70px;
+        width: 19rem;
+    }
+
+    @media (max-width: 150px) {
+        margin-left: -60px;
+        width: 320px;
+    }
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+.Price1:hover {
+    background-color: rgb(247, 194, 95);
+    transform: scale(1.1);
+}
+
+.Price2:hover {
+    background-color: rgb(246, 131, 108);
+    transform: scale(1.1);
+}
+
+.Price3:hover {
+    background-color: rgb(219, 120, 249);
+    transform: scale(1.1);
+}
+
+
+
+
+.listpara {
+    padding-left: 20px;
+    font-size: 10px;
+    color: black;
+    font-weight: 500;
+    padding-top: 10px;
+
+    @media (max-width:1000px) {
+        padding-left: 0;
+    }
+
+}
+
+.divTypePrise {
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 10px;
+
+    @media (max-width:1000px) {
+        padding-left: 0;
+    }
+}
+
+.divTypeSub1 {
+    padding-left: 20px;
+    font-weight: bold;
+
+    @media (max-width:1000px) {
+        padding-left: 0;
+    }
+}
+
+.sub1 {
+    font-weight: 400;
+}
+
+.divType1 {
+    list-style: none;
+    line-height: 8px;
+    padding-left: 10px;
+    transform: translate(0px, 17px);
+   
+
+}
+
+.divType2 {
+    list-style: none;
+    transform: translate(-19px, 1px);
+}
+
+.getStartedBtn {
+    margin-left: 20px;
+    border: 0;
+    border-radius: 3px;
+
+    @media (max-width:1000px) {
+        margin-left: 0;
+    }
+}
+
+.Div2 {
+    width: 3.8%;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    background-color: rgb(186, 218, 247);
+    height: 606px;
+
+    @media (max-width:1000px) {
+        right: -300px;
+        width: 58px;
+        display: none;
+    }
+
+    @media (max-width:375px){
+        .Div2{
+            display: none;
+        }
+    }
+}
+
+.Div2 {
+    @media (max-width: 1482px) {
+        right: -300px;
+        width: 58px;
+    }
+}
+
+
+
+.BellSymbolSpan {
+    margin-left: 10px;
+    box-shadow: 4px 5px -5px grey;
+}
+
+.BellSymbolSYmbol {
+    border: 1px solid white;
+    padding: 14px;
+    background: white;
+    color: blue;
+}
+
+.whiteSpace {
+    border: 1px solid white;
+    background: white;
+    width: 30px;
+    margin-left: 27px;
+    margin-top: 350px;
+    height: 120px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.addbutton {
+    border: 1px solid #96c7e6;
+    background: #96c7e6;
+    width: 30px;
+    margin-left: 27px;
+    margin-top: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.addbtnIcon {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 6.5px;
+}
+
+.explore {
+    padding-left: 20px;
+    font-size: small;
+    color: black;
+    font-weight: bold;
+
+    @media (max-width:840px) {
+        padding-left: 0;
+    }
+}
+
+.sup {
+    position: absolute;
+    color: #f2f7f9;
+    border: 1px solid red;
+    background-color: red;
+    transform: translate(-25px, 4px);
+    height: 15px;
+    width: 12px;
+    border-radius: 6px;
+    padding-left: 3px;
+}
+
+.horizontal {
+    margin-right: 22px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
